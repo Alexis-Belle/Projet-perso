@@ -1,42 +1,11 @@
+/* Body */
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .container-fluid {
     background-image: url(../img/background-container.jpg);
-}
-
-header {
-
-    background-color: #35353549;
-}
-
-.Titre {
-    text-align: center;
-    width: 100%;
-    padding: 0% 0% 0% 25%;
-    color:white;
-
-}
-
-.strong {
-
-    font-weight: bold;
-
-}
-
-.italic {
-
-    font-style: italic;
-
-}
-
-.TitrePresentation {
-    text-align: center;
-}
-
-.description {
-padding: 0% 20%;
 }
 
 .menuIcones {
@@ -52,11 +21,23 @@ padding: 0% 20%;
     border-radius: 0px 0px 5em 0px;
 }
 
-main {
-    display: flex;
-}
 
 .navItem {
+    margin: 0% 0% 100% -35%;
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    height: 40px;
+    padding: 10%;
+    border-radius: 25%;
+    background: linear-gradient(#aea5b1, #b7a3a3);
+}
+
+.navItem:hover {
+    background: linear-gradient(#ffffff, #b7a3a3);
+}
+
+.navItemActive {
     margin: 0% 0% 100% -35%;
     display: flex;
     flex-direction: column;
@@ -73,26 +54,61 @@ main {
 
 #qualificationImage {
 
-
 }
-#experienceImage {
 
+#experienceImage {
 
 }
 #etudesImage {
 
-
 }
+
 #contactImage {
 
+}
+
+
+/* Header */
+
+header {
+    background-color: #35353549;
+}
+
+
+.Titre {
+    text-align: center;
+    width: 100%;
+    padding: 0% 0% 0% 25%;
+    color:white;
+}
+
+.description {
+    padding: 0% 20%;
+    }
+    
+
+.TitrePresentation {
+    text-align: center;
+}
+
+.strong {
+
+    font-weight: bold;
+
+}
+
+.italic {
+
+    font-style: italic;
 
 }
 
 
-.navItem:hover {
-    background: linear-gradient(#ffffff, #b7a3a3);
-}
+/* Main */
 
+main {
+    display: flex;
+}
 
 .container {
     display: block;
@@ -111,6 +127,15 @@ main {
     overflow: auto;
 }
 
+
+a {
+
+    text-decoration: none;
+    color:#0f23da;
+    font-weight:bold;
+}
+
+
 .menuRight, .menuLeft{
 
     display: flex;
@@ -118,8 +143,10 @@ main {
     padding: 0% 5%;
 }
 
-.menuLeft {
-    padding-top: 2%;
+.menuRight {
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
 }
 
 .contenuMenu {
@@ -129,4 +156,60 @@ main {
     height: auto;
     width: 100%;
 
+}
+
+.divImageRightMenu {
+    display: block;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 40em;
+    height: 20em;
+    
+}
+
+.imageRightMenu {
+    object-fit: contain;
+    box-shadow: 0px 0px 40px #353535;
+    max-width: auto;
+    height: auto;
+
+}
+
+/* Template Etudes */
+
+.school, .etudesH2{
+
+    margin: 5% 0%;
+
+}
+
+.etudesH5 {
+
+    margin: 3% 0%;
+
+}
+
+/* Template Profil */
+
+
+.contenuMenuProfil {
+    padding: 12% 2%;
+    display: block;
+    color:black;
+    height: auto;
+    width: 100%;
+}
+
+
+/* Template Qualifications */
+
+.qualifications {
+
+    padding: 12% 2%;
+    display: block;
+    color:black;
+    height: auto;
+    width: 100%;
+    gap: 10%;
 }

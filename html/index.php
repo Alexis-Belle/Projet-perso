@@ -35,30 +35,29 @@
 
             <div class= "container">
                 <div class="menu">
-                    <div class="menuRight">
                     <?php $iconeSelection = "profil"; 
                         
                         if(!empty($_GET)) {
                             
                         $categoryValue = $_GET["category"];
 
-                        if($categoryValue = "contact") {
+                        if($categoryValue === "contact") {
                             $iconeSelection = "contact";
                         }
 
-                        else if ($categoryValue = "etudes") {
+                        else if ($categoryValue === "etudes") {
                             $iconeSelection = "etudes";
                         }
 
-                        else if ($categoryValue = "experience") {
+                        else if ($categoryValue === "experience") {
                             $iconeSelection = "experience";
                         }
 
-                        else if ($categoryValue = "profil") {
+                        else if ($categoryValue === "profil") {
                             $iconeSelection = "profil";
                         }
 
-                        else if ($categoryValue = "qualifications") {
+                        else if ($categoryValue === "qualifications") {
                             $iconeSelection = "qualifications";
                         }
 
@@ -69,11 +68,6 @@
                         require_once "../php/" . $iconeSelection . ".tpl.php";
                         ?>
                         
-
-                    </div>
-                    <div class="menuLeft">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi, ipsam beatae, sint, cupiditate officia alias quam molestiae nostrum nesciunt illo totam. Fugiat quo nulla at expedita, esse sequi error. Illo ea nobis beatae? Maiores, laboriosam dolorum vel voluptas doloribus nihil odit omnis veniam quis architecto optio culpa vitae. Doloremque doloribus nesciunt aperiam dolore accusantium! Culpa velit deleniti sint fugit incidunt nisi iste nam numquam at perspiciatis excepturi in aperiam dolore vero aliquid nihil voluptatibus, architecto ea sapiente consequuntur? Unde at doloremque reprehenderit quos eos repellendus odio praesentium, placeat sunt natus quasi autem mollitia officia officiis earum voluptatum illo sit vero cupiditate soluta. Necessitatibus aspernatur eveniet culpa ipsum nobis! Deleniti beatae voluptatibus error labore quis, dolorum accusamus explicabo facilis enim assumenda consectetur autem distinctio aliquam ipsam non animi amet, officia repudiandae omnis perferendis. Aperiam hic iste pariatur beatae tempore iusto. Ipsam, dolores ipsum, rem aspernatur nesciunt beatae, repellendus illo eaque exercitationem provident iusto labore mollitia ducimus autem saepe nobis minus voluptate delectus! Modi quae ullam at inventore voluptas sint, consectetur libero voluptatum facilis tempore exercitationem rem eligendi expedita magni dolor debitis tenetur. Reiciendis, mollitia repudiandae tempora ducimus quisquam qui dolores quod! Repudiandae quis tenetur corrupti. Aliquid quae eligendi, porro quia delectus magni sunt fugit quas atque eveniet dolorem assumenda minus nostrum repudiandae exercitationem impedit perferendis non? Architecto atque culpa molestias molestiae corporis maxime hic id minus ipsam reprehenderit enim ipsum quos, facilis itaque amet laborum laudantium at, odio commodi praesentium dolor dolore facere? Eum laboriosam accusamus nostrum nobis amet aut voluptates sint adipisci accusantium quod nisi error labore velit eius repellendus rerum, iste natus sit modi ducimus, saepe similique recusandae! Cupiditate vero nesciunt recusandae quia necessitatibus provident eligendi maiores tenetur quod doloremque explicabo dolores, ipsa repellendus neque ducimus accusantium nobis vel reiciendis voluptatem fugiat, voluptates, officiis facere nihil. Reprehenderit facilis debitis modi, repellendus harum tenetur quidem, voluptatem mollitia fuga alias hic pariatur nisi! Nobis ad asperiores dolore sit omnis, placeat obcaecati repudiandae accusamus quaerat molestias quos delectus nam ipsum sint libero, pariatur voluptate odit sapiente at nulla corporis recusandae excepturi quasi! Tempora reiciendis veniam dolor. Voluptates dolorum reprehenderit animi veritatis placeat veniam cum soluta corrupti! Quo dignissimos corporis perferendis temporibus, id officia molestias quasi nemo odit sit veniam. Aperiam similique, a pariatur nostrum placeat totam tenetur dolorem atque, doloremque exercitationem porro molestias commodi ex quisquam? Impedit sed in cupiditate minus est placeat dolorem, tempore nam dolores non hic cum esse dolorum commodi velit qui molestiae debitis. Dolorum vitae fuga ullam, ipsam iusto est soluta repellat officia provident officiis ea aliquam laborum alias, illo deserunt voluptates reprehenderit. Quas cumque dolorum amet, corrupti eligendi est, quae repudiandae quod dolores autem adipisci, qui harum. Neque velit nobis deserunt, est mollitia autem alias ipsa, accusantium repellendus veritatis adipisci voluptatem numquam quas dolores qui sunt! Eaque asperiores quisquam molestias unde accusamus natus, exercitationem ipsum odio ipsam, eligendi doloribus sint distinctio fuga? Soluta, hic. Soluta saepe mollitia architecto in perferendis ab esse quidem magnam aliquid, modi reiciendis, atque consequuntur optio aspernatur! Doloremque soluta voluptatem libero nesciunt quam?
-                    </div>
                 </div>
             </div>
 
